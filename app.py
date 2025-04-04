@@ -16,7 +16,7 @@ df = load_data()
 df_exploded = df.explode('genres')
 
 # ---- App Title ----
-st.title("🎬 The Coolest Movies Explorer")
+st.title("🎬 The Coolest Movies Explorer!")
 
 # ---- Genre Filter ----
 st.subheader("🎭 Browse by Genre")
